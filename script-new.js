@@ -113,7 +113,19 @@ const translations = {
         'contact-whatsapp': 'Написати в WhatsApp',
         'contact-telegram': 'Написати в Telegram',
         'contact-instagram': 'Написати в Instagram',
-        'contact-advice': 'Для вашої зручності рекомендуємо попередньо зателефонувати або написати нам, щоб записатися на консультацію. Найшвидший спосіб дізнатися можливість та орієнтовну вартість ремонту — надіслати нам у месенджер фото вашого виробу та короткий опис того, що потрібно зробити.'
+        'contact-advice': 'Для вашої зручності рекомендуємо попередньо зателефонувати або написати нам, щоб записатися на консультацію. Найшвидший спосіб дізнатися можливість та орієнтовну вартість ремонту — надіслати нам у месенджер фото вашого виробу та короткий опис того, що потрібно зробити.',
+        'order-steps-title': 'Як зробити замовлення?',
+        'order-offline-title': 'Офлайн в ательє',
+        'order-offline-step1': 'Принесіть виріб в ательє в Кракові, а ми запропонуємо рішення і ціну.',
+        'order-offline-step2': 'Оформіть замовлення і не хвилюйтеся.',
+        'order-offline-step3': 'Ми акуратно відновимо речі і потурбуємось про гарний результат.',
+        'order-offline-step4': 'Отримайте ідеально відремонтовані речі чітко в строк.',
+        'order-online-title': 'Онлайн поштою',
+        'order-online-step1': 'Надішліть фото виробу, а ми запропонуємо рішення і ціну.',
+        'order-online-step2': 'Надішліть виріб до нас (наприклад, через Paczkomat InPost).',
+        'order-online-step3': 'Ми акуратно відновимо речі і потурбуємось про гарний результат.',
+        'order-online-step4': 'Отримайте ідеально відремонтовані речі у найближчому пачкоматі.',
+        'order-inpost-info': 'Дані для посилки: InPost Paczkomat KRA06APP | Mazowiecka 14, 30-015 Kraków | Одержувач: Atelier Krakow | Телефон: +48 000 000 000'
     },
     pl: {
         'logo': 'Atelier Kraków',
@@ -228,7 +240,19 @@ const translations = {
         'contact-whatsapp': 'Napisz na WhatsApp',
         'contact-telegram': 'Napisz na Telegram',
         'contact-instagram': 'Napisz na Instagram',
-        'contact-advice': 'Dla Twojej wygody zalecamy wcześniejszy kontakt telefoniczny lub mailowy w celu umówienia się na konsultację. Najszybszym sposobem na poznanie możliwości i orientacyjnego kosztu naprawy jest przesłanie nam w komunikatorze zdjęcia produktu oraz krótkiego opisu, co należy zrobić.'
+        'contact-advice': 'Dla Twojej wygody zalecamy wcześniejszy kontakt telefoniczny lub mailowy w celu umówienia się na konsultację. Najszybszym sposobem na poznanie możliwości i orientacyjnego kosztu naprawy jest przesłanie nam w komunikatorze zdjęcia produktu oraz krótkiego opisu, co należy zrobić.',
+        'order-steps-title': 'Jak złożyć zamówienie?',
+        'order-offline-title': 'Offline w pracowni',
+        'order-offline-step1': 'Przynieś produkt do pracowni w Krakowie, a my zaproponujemy rozwiązanie i cenę.',
+        'order-offline-step2': 'Złóż zamówienie i nie martw się.',
+        'order-offline-step3': 'Starannie odnowimy rzeczy i zadbamy o doskonały rezultat.',
+        'order-offline-step4': 'Odbierz idealnie naprawione rzeczy dokładnie na czas.',
+        'order-online-title': 'Online pocztą',
+        'order-online-step1': 'Wyślij zdjęcie produktu, a my zaproponujemy rozwiązanie i cenę.',
+        'order-online-step2': 'Wyślij produkt do nas (np. przez Paczkomat InPost).',
+        'order-online-step3': 'Starannie odnowimy rzeczy i zadbamy o doskonały rezultat.',
+        'order-online-step4': 'Odbierz idealnie naprawione rzeczy w najbliższym paczkomacie.',
+        'order-inpost-info': 'Dane do wysyłki: InPost Paczkomat KRA06APP | Mazowiecka 14, 30-015 Kraków | Odbiorca: Atelier Krakow | Telefon: +48 000 000 000'
     },
     en: {
         'logo': 'Atelier Kraków',
@@ -343,7 +367,19 @@ const translations = {
         'contact-whatsapp': 'Message on WhatsApp',
         'contact-telegram': 'Message on Telegram',
         'contact-instagram': 'Message on Instagram',
-        'contact-advice': 'For your convenience, we recommend calling or messaging us in advance to book a consultation. The fastest way to find out the possibility and approximate cost of the repair is to send us a photo of your item and a short description of what needs to be done via messenger.'
+        'contact-advice': 'For your convenience, we recommend calling or messaging us in advance to book a consultation. The fastest way to find out the possibility and approximate cost of the repair is to send us a photo of your item and a short description of what needs to be done via messenger.',
+        'order-steps-title': 'How to place an order?',
+        'order-offline-title': 'Offline at the atelier',
+        'order-offline-step1': 'Bring your item to the atelier in Kraków, and we will suggest a solution and price.',
+        'order-offline-step2': 'Place your order and don\'t worry.',
+        'order-offline-step3': 'We will carefully restore your items and ensure excellent results.',
+        'order-offline-step4': 'Receive perfectly repaired items right on time.',
+        'order-online-title': 'Online by mail',
+        'order-online-step1': 'Send a photo of your item, and we will suggest a solution and price.',
+        'order-online-step2': 'Send your item to us (e.g., via InPost Paczkomat).',
+        'order-online-step3': 'We will carefully restore your items and ensure excellent results.',
+        'order-online-step4': 'Receive perfectly repaired items at the nearest parcel locker.',
+        'order-inpost-info': 'Shipping details: InPost Paczkomat KRA06APP | Mazowiecka 14, 30-015 Kraków | Recipient: Atelier Krakow | Phone: +48 000 000 000'
     }
 };
 

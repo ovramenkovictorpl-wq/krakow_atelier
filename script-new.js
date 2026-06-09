@@ -476,22 +476,8 @@ function initBurgerMenu() {
 }
 
 function initAccordion() {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', () => {
-            const item = header.parentElement;
-            const isActive = item.classList.contains('active');
-
-            document.querySelectorAll('.accordion-item').forEach(i => {
-                i.classList.remove('active');
-            });
-
-            if (!isActive) {
-                item.classList.add('active');
-            }
-        });
-    });
+    // Accordion items are now open by default with 'active' class in HTML
+    // No toggle functionality needed
 }
 
 function initSmoothScroll() {

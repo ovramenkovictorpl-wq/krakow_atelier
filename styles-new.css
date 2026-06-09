@@ -236,10 +236,31 @@ body {
 .disclaimer-box svg { flex-shrink: 0; color: #FFC107; }
 .disclaimer-box p { margin: 0; color: #856404; font-size: 16px; line-height: 1.6; }
 
+.price-note {
+    max-width: 900px;
+    margin: 40px auto 0;
+    padding: 24px 32px;
+    text-align: center;
+}
+
+.price-note p {
+    margin: 8px 0;
+    color: var(--text-light);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
 .prices-section { padding: 60px 0 100px; background: var(--secondary-bg); }
 
 .accordion { max-width: 900px; margin: 0 auto; }
-.accordion-item { background: var(--white); margin-bottom: 16px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
+.accordion-item {
+    background: var(--white);
+    margin-bottom: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    scroll-margin-top: 100px;
+}
 
 .accordion-header {
     width: 100%; padding: 24px 32px;
@@ -256,11 +277,25 @@ body {
 .accordion-item.active .accordion-icon { transform: rotate(180deg); }
 
 .accordion-content {
-    max-height: 0; overflow: hidden;
-    transition: max-height 0.4s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.accordion-item.active .accordion-content { max-height: 2000px; }
+.accordion-item.active .accordion-content { max-height: 3000px; }
+
+.price-subcategory {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 32px;
+}
+
+.price-subcategory:first-of-type {
+    margin-top: 0;
+}
 
 .price-table { width: 100%; border-collapse: collapse; }
 .price-table td { padding: 16px 32px; border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
